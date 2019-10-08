@@ -1,14 +1,5 @@
 version: '2.2'
 services:
-  # node:
-  #   build: ./
-  #   ports:
-  #     - 3000:3000
-  #   volumes:
-  #     - .:/src
-  #   depends_on:
-  #     - elasticsearch  
-
   elasticsearch:
     build: ./elasticsearch
     container_name: elasticsearch
